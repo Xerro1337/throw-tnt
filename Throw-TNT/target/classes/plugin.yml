@@ -1,0 +1,16 @@
+name: Throw-TNT
+version: '1.0-SNAPSHOT'
+main: org.xerro.throwtnt.Throw_TNT
+api-version: '1.20'
+authors: [Xerro_Patau]
+description: Adds to your server an ability to throw TNT from your hands.
+commands:
+  throwtnt:
+    description: "Reloads Throw-TNT configuration"
+    permission: throwtnt.reload
+    usage: "/throwtnt reload"
+permissions:
+  throwtnt.reload:
+    default: op
+  throwtnt.throw:
+    default: true
